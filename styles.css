@@ -2,7 +2,7 @@
   background-color: #EFEFEF;
 }
 .row {
-   display: flex;
+
 }
 .column{
   margin: 20px;
@@ -17,7 +17,5 @@
 }
 
 @media (max-width: 800px) {
-  .column {
-    width: 100%
-  }
+  .
 }
