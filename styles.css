@@ -4,18 +4,35 @@
 .row {
 
 }
-.column{
-  margin: 20px;
-}
 
-.cell {
+
+.element {
   background-color: #FFFFFF;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
   border: 2px solid #E8E8E8;
+  margin: 20px;
+  width: auto;
+  height: 220px;
+  clear: both;
 }
-
+.element .photo {
+  width: 50%;
+  float: left;
+}
+.element .photo img.image {
+  width: 180px;
+  height: 180px;
+  padding: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.element .right {
+  width: 50%;
+  float:right;
+}
 @media (max-width: 800px) {
   .
 }
