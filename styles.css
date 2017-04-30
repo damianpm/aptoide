@@ -1,0 +1,23 @@
+.body{
+  background-color: #EFEFEF;
+}
+.row {
+   display: flex;
+}
+.column{
+  margin: 20px;
+}
+
+.cell {
+  background-color: #FFFFFF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 2px solid #E8E8E8;
+}
+
+@media (max-width: 800px) {
+  .column {
+    width: 100%
+  }
+}
